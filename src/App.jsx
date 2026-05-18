@@ -5,7 +5,7 @@ import HeaderComponent from './components/HeaderComponent'
 import ListProductTableComponent from './components/ListProductTableComponent'
 import ProductComponent from './components/ProductComponent'
 
-import {Routes, Route} from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
   
