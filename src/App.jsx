@@ -19,6 +19,9 @@ function App() {
           <Route path="/products" element={<ListProductTableComponent/>} />
           {/* //http://localhost:3000/add-product */}
           <Route path="/add-product" element={<ProductComponent/>} />
+
+          {/* //http://localhost:3000/edit-product */}
+          <Route path="/edit-product/:id" element={<ProductComponent/>} />
         </Routes>
 
    
